@@ -1,5 +1,15 @@
 {
   "devDependencies": {
     "electron": "1.7.6"
+  },
+  "name": "fujisoba-continent",
+  "version": "0.1.0",
+  "description": "Tweet-only twitter client for use hiding against boss, in homage to ラーメン大陸.",
+  "main": "app.js",
+  "repository": "https://github.com/kakakaya/fujisoba-continent",
+  "author": "kakakaya <kakakaya+git@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "build": "tsc && cp view/* build"
   }
 }
